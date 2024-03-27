@@ -10,13 +10,14 @@ using UnityEngine.XR.ARSubsystems;
 using Google.XR.ARCoreExtensions;
 
 using System;
+using TMPro;
 
 namespace UnityAdventure.Debug.Geospatial
 {
     public class GeospatialDebugInfo : MonoBehaviour
     {
         [SerializeField] private AREarthManager earthManager;
-        [SerializeField] private Text infoText;
+        [SerializeField] private TextMeshProUGUI infoText;
 
         private bool isGeospatialSupported;
 
